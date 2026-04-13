@@ -1,0 +1,51 @@
+# Data files from Udacity Arvato project
+AZDIAS_Feature_Summary.csv
+Udacity_AZDIAS_Subset.csv
+Udacity_CUSTOMERS_Subset.csv
+
+# Documentation and terms
+Data_Dictionary
+Data_Dictionary.md
+terms_and_conditions
+
+# Ignore large data files (common in this project)
+*.csv
+*.zip
+
+# General Python / Jupyter ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
